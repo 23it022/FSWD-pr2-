@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container Styles */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #4CAF50; /* Green color for section headers */
+}
+
+/* Form Styles */
+.add-task {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#add-task-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #480a0a; /* Green button */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #050805; /* Darker green on hover */
+}
+
+/* Task List Styles */
+.task-list {
+    background: #5f69a2; /* Light blue background */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#tasks-output {
+    margin-top: 10px;
+}
+
+/* Task Item Styles */
+.task-item {
+    background: #ffffff; /* White background for tasks */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    button {
+        width: 100%;
+    }
+}
